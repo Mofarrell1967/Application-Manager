@@ -7,8 +7,6 @@ body {
 
 .navbar {
     margin-bottom: 0;
-
-
     background-color: #6400aa;
     width: 100%;
     border: 0;
@@ -29,4 +27,78 @@ body {
 
 .navbar-nav {
     float: right;
+}
+
+/* -------------------- Main Page & Jumbotron -- idea and format borrowed from Whiskey Drop and edited to suit -------------------- */
+
+.callout-container {
+    height: 100%;
+    background: url('../images/bkgd.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding-top: 150px;
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.jumbotron .lead {
+    color: white;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.jumbotron h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.jumbotron .main {
+    color: white;
+    margin: 25px 0;
+
+}
+
+.jumbotron .status {
+    color: white;
+    margin: 25px 0;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider-purple {
+    background-color: #6400aa;
 }
