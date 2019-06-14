@@ -84,19 +84,21 @@ body {
 }
 
 .jumbotron .status {
-    color: white;
+    color: #C4CC97;
     margin: 25px 0;
+    font-weight: bold;
+    font-size: 30px;
 }
+
 
 /* -------------------- Dividers -------------------- */
 
 .block-divider {
-    width: 75px;
+    width: 200px;
     height: 5px;
     border: 0;
     background-color: #6400aa;
 }
-
 
 /* -------------------- Latest News Section -------------------- */
 
@@ -193,4 +195,31 @@ footer {
 .sm-links li a i:hover {
     background: #e84610;
 }
+
+/* -------------------- Contacts HTML Styles -------------------- */
+
+ button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+    border-color: #6400aa;
+}
+
+.shadow {
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 10px;
+}
+
+.form-color {
+    background-color: #d1d1d1;
+    border-radius: .25rem;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 20px;
+}
+
+.radio {
+    text-align: left;
+    margin: 10px;
+} 
 
