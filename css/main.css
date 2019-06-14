@@ -159,8 +159,53 @@ ul.timeline > li:before {
     padding-top: 130px;
 }
 
-h6 {
+.image-labels {
     color: white;
     margin: 10px;
+}
+
+.carousel-control-prev {
+     color: white;
+     margin-left: -150px;
+}
+
+.carousel-control-next {
+     color: white;
+     margin-right: -150px;
+}
+
+/* -------------------- Footer -------------------- */
+
+footer {
+    background-color: #6400aa;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
+    padding: 15px;
+
+}
+
+.sm-links {
+    padding-bottom: 0px;
+}
+
+.sm-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #4D76FF;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sm-links li a i:hover {
+    background: #e84610;
 }
 
