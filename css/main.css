@@ -10,7 +10,6 @@ body {
     background-color: #6400aa;
     width: 100%;
     border: 0;
-
 }
 
 .navbar .navbar-toggler {
@@ -66,12 +65,6 @@ body {
     text-decoration: underline;
 }
 
-.jumbotron .lead {
-    color: white;
-    font-weight: bold;
-    margin: 25px 0;
-}
-
 .jumbotron h2 {
     color: white;
     font-weight: bold;
@@ -79,11 +72,15 @@ body {
     margin-top: 30px;
 }
 
-.jumbotron .main {
-    color: white;
+.jumbotron .lead {
+    color:  #a59a9a;
+    font-weight: bold;
     margin: 25px 0;
-    padding-bottom: 45px;
+}
 
+.jumbotron .main {
+    color: #a59a9a;
+    margin: 25px 0;
 }
 
 .jumbotron .status {
@@ -106,7 +103,6 @@ body {
 ul.timeline {
     list-style-type: none;
     position: relative;
-
 }
 
 ul.timeline:before {
@@ -164,17 +160,7 @@ ul.timeline > li:before {
     margin: 10px;
 }
 
-.carousel-control-prev {
-     color: white;
-     margin-left: -150px;
-}
-
-.carousel-control-next {
-     color: white;
-     margin-right: -150px;
-}
-
-/* -------------------- Footer -------------------- */
+/* -------------------- Footer -- SM styles borrowed from CV site and edited to suit -------------------- */
 
 footer {
     background-color: #6400aa;
@@ -182,7 +168,6 @@ footer {
     min-height: 100px;
     margin: 0;
     padding: 15px;
-
 }
 
 .sm-links {
