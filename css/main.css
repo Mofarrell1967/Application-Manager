@@ -257,3 +257,26 @@ footer {
     box-shadow: 10px 10px 8px #888888;
 
 }
+
+/* -------------------- Metrics HTML Styles -------------------- */
+
+.metrics-header {
+    margin: 15px;
+    padding-top: 10px;
+    color: #a59a9a;
+    font-weight: bold;
+}
+    
+.metrics-form {
+    background-color: white;
+    border-radius: .25rem;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 20px;
+}
+    
+h5 {
+    color:  #6400aa;
+}
+
+
+
