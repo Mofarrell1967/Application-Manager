@@ -196,7 +196,7 @@ footer {
     background: #e84610;
 }
 
-/* -------------------- Contacts HTML Styles -------------------- */
+/* -------------------- Contact HTML Styles -------------------- */
 
  button[type="submit"] {
     margin-top: 15px;
@@ -211,7 +211,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.form-color {
+.contact-form {
     background-color: #d1d1d1;
     border-radius: .25rem;
     box-shadow: 10px 10px 8px #888888;
@@ -223,3 +223,37 @@ footer {
     margin: 10px;
 } 
 
+/* -------------------- About HTML Styles -------------------- */
+
+.about-header {
+    margin: 15px;
+    padding-top: 10px;
+    color: #a59a9a;
+    font-weight: bold;
+}
+
+.about-sm {
+    text-align: left;
+    margin: 10px;
+}
+
+.about-form {
+    background-color: white;
+    border-radius: .25rem;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 20px;
+}
+
+.data-scroll {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.border {
+    border: solid;
+    margin: 30px;
+    padding: 10px;
+    border-radius: .25rem;
+    box-shadow: 10px 10px 8px #888888;
+
+}
