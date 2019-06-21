@@ -18,6 +18,8 @@ styles and formats utilised to provide the institute with examples of my knowled
  
 **To access a working demo please click here**
 
+![background](images/bkgd.jpg)
+
 ________________________________________________________
 
 **UX**
