@@ -23,6 +23,9 @@ h5 {
 
 .navbar .navbar-brand {
     font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
 }
 
 .navbar .navbar-nav a {
@@ -31,7 +34,28 @@ h5 {
 
 .navbar-nav {
     float: right;
+    text-align: center;
 }
+
+.navbar .current {
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    border-radius: 25px 20px;
+}
+
+
+li a.selectedclass {
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    border-radius: 25px 20px;
+}
+
+
+
+
+
 
 /* -------------------- Main Page & Jumbotron -- idea and format borrowed from Whiskey Drop and edited to suit -------------------- */
 
@@ -95,7 +119,6 @@ h5 {
     font-weight: bold;
     font-size: 30px;
 }
-
 
 /* -------------------- Dividers -------------------- */
 
@@ -224,7 +247,7 @@ footer {
 .contact-form {
     background-color: #d1d1d1;
     border-radius: .25rem;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 4px 4px 2px #6400aa;
     margin-bottom: 20px;
 }
 
@@ -251,7 +274,6 @@ footer {
 .about-form {
     background-color: white;
     border-radius: .25rem;
-    box-shadow: 10px 10px 8px #888888;
     margin-bottom: 20px;
 }
 
@@ -265,7 +287,7 @@ footer {
     margin: 30px;
     padding: 10px;
     border-radius: .25rem;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 4px 4px 2px #6400aa;
 
 }
 
@@ -282,13 +304,13 @@ footer {
 .metrics-form {
     background-color: white;
     border-radius: .25rem;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 4px 4px 2px #6400aa;
     margin-bottom: 20px;
 }
 
 .dropdown-menu {
     background-color: #000;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 4px 4px 2px #6400aa;
 }
 
 .dropdown-item {
