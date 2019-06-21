@@ -61,13 +61,21 @@ has been applied to all fields bar the radio buttons.
 
 The site was tested on multiple browsers
 
-Google Chrome, MS Internet Explorer, MS Edge, Mozilla Firefox, and Safari (Note: the testing on Safari was more limited than the
-testing on alternative browsers due to the unavailabilty and non-use of Apple devices within the company).
+* Google Chrome,
+* MS Internet Explorer,
+* MS Edge,
+* Mozilla Firefox,
+* Safari (Note: the testing on Safari was more limited than the testing on alternative browsers
+due to the unavailabilty and non-use of Apple devices within the company).
 
 The site was also tested on different devices.
 
-Desktop, Laptop, Android Tablet (10 inch), Samsung Galaxy S7 & S10+, iPhone & Ipad (Note the testing on Apple products was more
-limited than the testing on alternative devices due to the unavailabilty and non-use of Apple devices within the company).
+* Desktop,
+* Laptop,
+* Android Tablet (10 inch),
+* Samsung Galaxy S7 & S10+,
+* iPhone & Ipad (Note the testing on Apple products was more limited than the testing on alternative
+devices due to the unavailabilty and non-use of Apple devices within the company).
 
  ________________________________________________________
 
@@ -119,13 +127,13 @@ future plan is to link this form with our ticket system and apply standard Servi
 
 **Employed Technologies**
 
-HTML 5
-CSS
-Bootstrap 4.1.3
-Fontawesome 5.6.1
-Font.Googleapis
-JQuery 3.3.1
-Cloudflare 1.14.3
+- HTML 5
+- CSS
+- Bootstrap 4.1.3
+- Fontawesome 5.6.1
+- Font.Googleapis
+- JQuery 3.3.1
+- Cloudflare 1.14.3
 
  ________________________________________________________
 
