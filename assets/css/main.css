@@ -53,10 +53,6 @@ li a.selectedclass {
 }
 
 
-
-
-
-
 /* -------------------- Main Page & Jumbotron -- idea and format borrowed from Whiskey Drop and edited to suit -------------------- */
 
 
@@ -271,15 +267,17 @@ footer {
     margin: 10px;
 }
 
+.about-sm :hover {
+    text-decoration: none;
+    background-color: transparent;
+    opacity: 1;
+    color: #e84610;
+}  
+
 .about-form {
     background-color: white;
     border-radius: .25rem;
     margin-bottom: 20px;
-}
-
-.data-scroll {
-    height: 300px;
-    overflow-y: scroll;
 }
 
 .border {

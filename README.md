@@ -129,13 +129,12 @@ future plan is to link this form with our ticket system and apply standard Servi
 
 **Employed Technologies**
 
-- HTML 5
+- HTML
 - CSS
-- Bootstrap 4.1.3
-- Fontawesome 5.6.1
-- Font.Googleapis
-- JQuery 3.3.1
-- Cloudflare 1.14.3
+- Bootstrap 
+- Fontawesome 
+- Google Font
+- JQuery
 
  ________________________________________________________
 

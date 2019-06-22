@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
     <title>Application Manager</title>
 </head>
 
@@ -20,14 +20,14 @@
     <nav class="navbar no-gutters fixed-top navbar-dark navbar-expand-sm">
         <a href="index.html" class="navbar-brand" data-toggle="tooltip" title="Home">Application Manager</a>
         <ul class="navbar-nav navbar-brand"></ul>
-        
+
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false">
         <span class="navbar-toggler-icon"></span></button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="index.html#news">News</a></li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="infex.html#gallery">Gallery</a></li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="index.html#gallery">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                 <li class="nav-item"><a class="nav-link current" href="metrics.html">Metrics</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -49,7 +49,7 @@
                     <h2>Available Metrics and Sample Reporting</h2>
                     <hr class="block-divider">
 
-                    <!-- Matrics Section Start -->
+                    <!-- Metrics Section Start -->
 
                     <div class="metrics-header">
 
@@ -57,27 +57,24 @@
                         <p>CA PM and BP ROA provide a vast suite of pre-set reports and dashboards for use out-of-the-box.</p>
                     </div>
 
-                    <section class="container-fluid">
+                    <section class="container">
                         <div class="row">
-                            <div class="col border data-scroll metrics-form">
+                            <div class="col border metrics-form">
 
                                 <h5>Dashboards</h5>
 
-                                <p>Dashboards contain sets of views that let you see the polled data as meaningful information. You can also generate reports from dashboards. In addition to custom dashboards that the administrator has created, several out-of-the-box
+                                <p>Dashboards contain sets of views that let you see the polled data as meaningful information. You can also generate reports from dashboards. In addition to created custom dashboards, several out-of-the-box
                                     dashboards are available. When you log in, all dashboards that are assigned to your user account are accessible.</p>
-                                <p>When you register a new data source, you can use the out-of-the-box dashboards and views that are associated with it. With the required role rights, you can edit dashboards, and can save the changes to your own user account.
-                                </p>
+                                <p>When you register a new data source, you can use the out-of-the-box dashboards and views that are associated with it. You can edit dashboards, and can save the changes to your own user account.</p>
                                 <p>CA Performance Management includes two categories of pages:</p>
                                 <h5>Dashboard Pages</h5>
                                 <p>Provide high-level information, such as average performance of monitored items in a group. Dashboards often provide a drill-down path to more detailed, related pages from a selected context.</p>
                                 <h5>Context Pages</h5>
                                 <p>Provide focused performance and status data that is scoped to a specific item, such as a single router or server. These pages are available as drill-down links or tabs from dashboard pages.</p>
                                 <h5> Out-of-the-Box Dashboards</h5>
-                                <p>Out-of-the-box dashboards provide data immediately after you run discovery and begin collecting metrics from your environment. These dashboards show you examples of dashboards that you can build to monitor your environment.
-                                    The dashboards provide views for different users across your organization. Use these dashboards as a starting point to create your own dashboard.</p>
-                                <p>Note: Many out-of-the-box dashboards include views with data from CA Application Delivery Analysis or CA Network Flow Analysis. These views appear only if these data sources are installed in your monitoring system and register
-                                    in Performance Center. For dashboards without a listed data source, the data comes from the Data Aggregator in CA Performance Management.</p>
-                            </div>
+                                <p>Out-of-the-box dashboards provide data immediately after you run discovery and begin collecting metrics from your environment. The dashboards provide views for different users across your organization.
+                                 Use these dashboards as a starting point to create your own dashboard.</p>
+                                                  </div>
                         </div>
                     </section>
 
@@ -87,14 +84,14 @@
                                 <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dashboard Examples </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/Availability.pdf">Availability Dashboard</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/CPU.pdf">CPU Memory Dashboard</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/General.pdf">General Processing</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/Overview.pdf">Infrastructure Overview</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/Status.pdf">Status Card View</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/Inventory.pdf">Inventory Hierarchy</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/Summary.pdf">Summary Metrics</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/dashboard/Trend.pdf">Trend Dashboard</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/Availability.pdf">Availability Dashboard</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/CPU.pdf">CPU Memory Dashboard</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/General.pdf">General Processing</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/Overview.pdf">Infrastructure Overview</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/Status.pdf">Status Card View</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/Inventory.pdf">Inventory Hierarchy</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/Summary.pdf">Summary Metrics</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/dashboard/Trend.pdf">Trend Dashboard</a>
                                 </div>
                             </div>
                         </div>
@@ -105,18 +102,13 @@
                         <h3>Custom Reports</h3>
                         <p>For more specific data presentation or to enable customised algorithms and calculated reporting, the system has a full range of generators for this purpose .</p>
                     </div>
-                    <section class="container-fluid">
+                    <section class="container">
                         <div class="row">
-                            <div class="col border data-scroll metrics-form">
+                            <div class="col border metrics-form">
 
                                 <h5>Custom Dashboards</h5>
 
                                 <p>All dashboards can be customized with different set of views, context, and layouts. Custom dashboards can be used to troubleshoot issues or long term to monitor categories of items.</p>
-                                <h5>Examples:</h5>
-                                <h6>• A regional manager uses a dashboard that pins views to each site group in that region.</h6>
-                                <h6>• A systems administrator uses a dashboard to monitor all servers.</h6>
-                                <h6>• A network engineer uses a dashboard with views pinned to problematic routers or critical interfaces.</h6>
-
                                 <h5>Change the Context</h5>
                                 <p>The dashboard context filters the data appears in views on the dashboard. When you select a group for a standard dashboard, you apply a filter to all views on the page. When you select a group context, items from all subgroups
                                     that are available to you appear in views on the dashboard. However, the same subgroups might not appear on the Items tab in Group administration.</p>
@@ -133,19 +125,19 @@
                                 <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Custom Report Examples </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                    <a target="_blank" class="dropdown-item" href="documents/custom/cabi-trend.pdf">CABI Custom Trend</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/custom/cabi-graph.pdf">CABI Custom Graph</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/custom/cabi-situations.pdf">CABI Situations to Watch</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/custom/bi-direction.pdf">Bi-Direction Report</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/custom/group-interface.pdf">Group Interface Report</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/custom/group-report.pdf">Group Report</a>
-                                    <a target="_blank" class="dropdown-item" href="documents/custom/multitrend.pdf">Multi-Trend Report</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/custom/cabi-trend.pdf">CABI Custom Trend</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/custom/cabi-graph.pdf">CABI Custom Graph</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/custom/cabi-situations.pdf">CABI Situations to Watch</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/custom/bi-direction.pdf">Bi-Direction Report</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/custom/group-interface.pdf">Group Interface Report</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/custom/group-report.pdf">Group Report</a>
+                                    <a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="assets/documents/custom/multitrend.pdf">Multi-Trend Report</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Matrics Section End -->
+                    <!-- Metrics Section End -->
 
 
                 </section>
@@ -224,11 +216,11 @@
                 <h5 class="uppercase">BT Legal Notice & Privacy Policy</h5>
                 <p class="inline-block">
                     Click to view.
-                    <button class="btn btn-sm" data-toggle="modal" data-target="#PPModal">Open</button></p>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#PPModal">Open</button></p>
             </div>
             <div class="d-none d-sm-block col-sm-4">
                 <h5 class="uppercase">BT Website</h5>
-                <a target="_blank" href="https://btireland.com/"><img src="images/bt.jpg" class="rounded-circle mr-3" height=50 width=70 alt="No Image available/"></a>
+                <a target="_blank" href="https://btireland.com/"><img src="assets/images/bt.jpg" class="rounded-circle mr-3" height=50 width=70 alt="No Image available/"></a>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase">BT Social Links</h5>
