@@ -56,25 +56,21 @@
                         <h3>Dashboards</h3>
                         <p>CA PM and BP ROA provide a vast suite of pre-set reports and dashboards for use out-of-the-box.</p>
                     </div>
-
                     <section class="container">
                         <div class="row">
                             <div class="col border metrics-form">
-
                                 <h5>Dashboards</h5>
-
-                                <p>Dashboards contain sets of views that let you see the polled data as meaningful information. You can also generate reports from dashboards. In addition to created custom dashboards, several out-of-the-box
-                                    dashboards are available. When you log in, all dashboards that are assigned to your user account are accessible.</p>
-                                <p>When you register a new data source, you can use the out-of-the-box dashboards and views that are associated with it. You can edit dashboards, and can save the changes to your own user account.</p>
-                                <p>CA Performance Management includes two categories of pages:</p>
+                                <p>Dashboards contain sets of views that let you see the polled data as meaningful information. You can also generate reports from dashboards. In addition to created custom dashboards, 
+                                several out-of-the-box dashboards are available. When you log in, all dashboards that are assigned to your user account are accessible. Out-of-the-box dashboards provide data immediately
+                                after you run discovery and begin collecting metrics from your environment.  </p>
+                                <p>When you register a new data source, you can use the out-of-the-box dashboards and views that are associated with it. You can edit dashboards, and can save the changes to your own user account.
+                                CA Performance Management includes two categories of pages:</p>
                                 <h5>Dashboard Pages</h5>
-                                <p>Provide high-level information, such as average performance of monitored items in a group. Dashboards often provide a drill-down path to more detailed, related pages from a selected context.</p>
+                                <p>Provide high-level information, such as average performance of monitored items in a group. Dashboards often provide a drill-down path to more detailed, related pages from a selected context. 
+                                The dashboards provide views for different users across your organization. Use these dashboards as a starting point to create your own dashboard.</p>
                                 <h5>Context Pages</h5>
                                 <p>Provide focused performance and status data that is scoped to a specific item, such as a single router or server. These pages are available as drill-down links or tabs from dashboard pages.</p>
-                                <h5> Out-of-the-Box Dashboards</h5>
-                                <p>Out-of-the-box dashboards provide data immediately after you run discovery and begin collecting metrics from your environment. The dashboards provide views for different users across your organization.
-                                 Use these dashboards as a starting point to create your own dashboard.</p>
-                                                  </div>
+                                </div>
                         </div>
                     </section>
 
@@ -250,6 +246,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- Script End -->
+
+    <!-- Tooltip Script Start -->
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+
+    <!-- Tooltip Script End -->
 
 </body>
 

@@ -18,7 +18,7 @@ styles and formats utilised to provide the institute with examples of my knowled
  
 To access a working demo please click [here](https://mofarrell1967.github.io/Application-Manager/)
 
-![background](../assets/images/screenshot.jpg)
+![background](assets/images/screenshot.jpg)
 
 ________________________________________________________
 
@@ -100,11 +100,15 @@ There are also a latest news and gallery sections that can be accessed from the 
 sections provide the user with updates on features, faults and releases and the gallery provides images of screen
 types for the users to visualise the system outputs.
 
+![background](assets/images/screenshot.jpg)
+
 
 ***About:***
 
 The about page contains relevant information about the systems and also provides links to vendor pages, social media
 and any document support pages.
+
+![background](assets/images/about.jpg)
 
 ***Metrics:***
 
@@ -114,6 +118,8 @@ available in the systems along with PDF examples accessible from dropdown menus.
 NOTE: As there is currently no direct access to the systems from the website, the report examples are limnited to 
 those that can be exported. The future release will enable users to view the systems in demo mode and see the 
 greater level of reporting available.
+
+![background](assets/images/metrics.jpg)
 
 ***Contact***
 
@@ -127,6 +133,8 @@ future plan is to link this form with our ticket system and apply standard Servi
 
 The security validation to prevent un-matched email addresses in the 'Access Request Form' is currently disabled until
 full validation is developed for the next version update release.
+
+![background](assets/images/contact.jpg)
 
  ________________________________________________________
 
