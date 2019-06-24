@@ -18,8 +18,6 @@ styles and formats utilised to provide the institute with examples of my knowled
  
 To access a working demo please click [here](https://mofarrell1967.github.io/Application-Manager/)
 
-![background](assets/images/screenshot.jpg)
-
 ________________________________________________________
 
 **UX**
