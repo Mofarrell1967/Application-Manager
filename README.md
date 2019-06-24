@@ -18,7 +18,7 @@ styles and formats utilised to provide the institute with examples of my knowled
  
 **To access a working demo please click here**
 
-![background](assets/images/screenshot.jpg)
+![background](assets/images/screenshot.png)
 
 ________________________________________________________
 
@@ -125,6 +125,9 @@ with the request. This is due to the limited number of user licences available.
 The 2nd form give the opportunity for users to request additional information or add feature requirements. The 
 future plan is to link this form with our ticket system and apply standard Service Level Agreements to the requests.
 
+The security validation to prevent un-matched email addresses in the 'Access Request Form' is currently disabled until
+full validation is developed for the next version update release.
+
  ________________________________________________________
 
 **Employed Technologies**
@@ -153,7 +156,15 @@ API queries are planned to both reporting systems
 
 **Website Deployment**
 
-The site is hosted on GitHub and can be run from there or locally by pasting the following link directly into your browser.
+This site is hosted on GitHub and deployed directly from the master branch. Any updates or new releases will be deployed to that master branch.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/Mofarrell1967/Application-Manager into your terminal. 
+To unlink the site from the GitHub repository, type git remote rm origin into the terminal.
+
+The site is hosted on GitHub and can be run from there or locally by pasting the following link directly into your browser. https://mofarrell1967.github.io/Application-Manager/
+
+To view the source code please click on the following GitHub address  https://github.com/Mofarrell1967/Application-Manager
+
 
 Future deployment will see the page hosted on the company intranet.
  ________________________________________________________
