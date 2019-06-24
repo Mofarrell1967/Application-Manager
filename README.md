@@ -16,9 +16,9 @@ The colours, fonts and basic layouts are in keeping with the structure employed 
 styles and formats utilised to provide the institute with examples of my knowledge and abilities.
 
  
-**To access a working demo please click here**
+**To access a working demo please click ![here](https://mofarrell1967.github.io/Application-Manager/)**
 
-![background](./assets/images/screenshot.png)
+![background](assets/images/screenshot.jpg)
 
 ________________________________________________________
 
