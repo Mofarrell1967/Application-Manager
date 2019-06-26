@@ -40,9 +40,11 @@ The UX was finalised using user feedback and input.
 
 Testing was completed in 2 phases
 
+All code and css was validated using W3C validation services.
+
 *User Testing*
 
- _________________________
+
 
 All pages functions and information was reviewed with a selection of users in the company with feedback being 
 applied to the final release. All links are connected to the live sites and social media platforms to give a
@@ -57,7 +59,6 @@ has been applied to all fields bar the radio buttons.
 
 *Browser Testing*
 
- _________________________
 
 The site was tested on multiple browsers
 
@@ -98,7 +99,7 @@ There are also a latest news and gallery sections that can be accessed from the 
 sections provide the user with updates on features, faults and releases and the gallery provides images of screen
 types for the users to visualise the system outputs.
 
-![background](assets/images/screenshot.jpg)
+![index](assets/images/screenshot.jpg)
 
 
 ***About:***
@@ -106,7 +107,7 @@ types for the users to visualise the system outputs.
 The about page contains relevant information about the systems and also provides links to vendor pages, social media
 and any document support pages.
 
-![background](assets/images/about.jpg)
+![about](assets/images/about.jpg)
 
 ***Metrics:***
 
@@ -117,7 +118,7 @@ NOTE: As there is currently no direct access to the systems from the website, th
 those that can be exported. The future release will enable users to view the systems in demo mode and see the 
 greater level of reporting available.
 
-![background](assets/images/metrics.jpg)
+![metrics](assets/images/metrics.jpg)
 
 ***Contact***
 
@@ -132,7 +133,7 @@ future plan is to link this form with our ticket system and apply standard Servi
 The security validation to prevent un-matched email addresses in the 'Access Request Form' is currently disabled until
 full validation is developed for the next version update release.
 
-![background](assets/images/contact.jpg)
+![contact](assets/images/contact.jpg)
 
  ________________________________________________________
 
