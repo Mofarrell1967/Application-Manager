@@ -6,7 +6,7 @@ A Code Institute Project in Centric Front End Website Development
 
 ***Author :*** Michael O'Farrell
 
-***Website Summary :*** 
+***Website Summary:*** 
 
 The website contains pages for 2 reporting systems used by my employers and the
 employees. The aim of the site is to provide information, updates, access and examples of the systems and their use in 
@@ -90,6 +90,8 @@ in the website.
 The footer contains the Legal Disclaimer and Privacy Policy in a modal to limit the space used and also to improve
 user experience when navigating the site.
 
+The Documents folder is divided into sub-folders for 'custom' & 'dashboard' - this is to maintain a separation between the 2 report types for control purposes.
+
 ***Index:***
 
 The index page contains the welcome detail, a login jump point for existing users and the status of the systems. It is planned
@@ -163,7 +165,8 @@ API queries are planned to both reporting systems
 
 **Website Deployment**
 
-This site is hosted on GitHub and deployed directly from the master branch. Any updates or new releases will be deployed to that master branch.
+This site is hosted on GitHub and deployed directly from the master branch. Any commit updates or new releases will be deployed to that master branch.
+In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/Mofarrell1967/Application-Manager into your terminal. 
 To unlink the site from the GitHub repository, type git remote rm origin into the terminal.
